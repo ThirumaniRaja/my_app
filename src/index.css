@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* index.css */
+.drag-handle {
+  cursor: move;
+  background: #2d3436;
+  color: white;
+  padding: 5px;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}

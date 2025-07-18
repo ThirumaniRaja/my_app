@@ -1,0 +1,271 @@
+{ "response":[
+    {
+        "category": "Plant Name",
+        "items": [
+            {
+                "tabname": "Performance Ratio",
+                "visible": true,
+                "data": {
+                    "viewlink": "View Range"
+                }
+            },
+            {
+                "tabname": "Plant Availabilty",
+                "visible": true,
+                "data": {
+                    "viewlink": "View Range"
+                }
+            },
+            {
+                "tabname": "Grid Availabilty",
+                "visible": true,
+                "data": {
+                    "viewlink": "View Range"
+                }
+            },
+            {
+                "tabname": "Alarm Number",
+                "visible": true,
+                "data": {
+                    "viewlink": "View"
+                }
+            },
+            {
+                "tabname": "Data Availabilty",
+                "visible": true,
+                "data": {
+                    "viewlink": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "Plant KPI",
+        "items": [
+            {
+                "tabname": "Export Energy/ Generation (KWh)",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "value": 7509.8
+                }
+            },
+            {
+                "tabname": "Capacity Utilisation",
+                "visible": true,
+                "data": {
+                    "viewlink": "View"
+                }
+            },
+            {
+                "tabname": "POA Energy (Kw/m)",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "yesterday_value": 7000,
+                    "today_value": 8000
+                }
+            },
+            {
+                "tabname": "GHI Energy (Kw/m)",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "yesterday_value": 7000,
+                    "today_value": 8000
+                }
+            },
+            {
+                "tabname": "Specific Yield",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "yesterday_value": 7000,
+                    "today_value": 8000
+                }
+            }
+        ]
+    },
+    {
+        "category": "Weather KPI",
+        "items": [
+            {
+                "tabname": "POA Irradiance (W/m2)",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "Live Value": 7000,
+                    "Max Value": 8000
+                }
+            },
+            {
+                "tabname": "GHI Irradiance (W/m2)",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "Live Value": 7000,
+                    "Max Value": 8000
+                }
+            },
+            {
+                "tabname": "POA Irradiation (Kw/m)",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "Today": 7000,
+                    "Yesterday": 8000
+                }
+            },
+            {
+                "tabname": "GHI Irradiation (Kw/m)",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "Today": 7000,
+                    "today_vYesterdayalue": 8000
+                }
+            },
+            {
+                "tabname": "Rainfall (mm)",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "Live": 7000,
+                    "Max": 8000
+                }
+            },
+            {
+                "tabname": "Albedo",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "value": 0.6
+                }
+            },
+            {
+                "tabname": "Module Temperature(c)",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "Live": 54,
+                    "Max": 60
+                }
+            },
+            {
+                "tabname": "Wind Speed(m/s)& Direction (Cardinal)",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "Live": 43,
+                    "Max": 47.5
+                }
+            },
+            {
+                "tabname": "CO2 Offset (Tonnes)",
+                "visible": true,
+                "data": {
+                    "viewlink": ""
+                }
+            },
+            {
+                "tabname": "Ambient Temperature (c)",
+                "visible": true,
+                "data": {
+                    "viewlink": "",
+                    "Live": 54,
+                    "Max": 72
+                }
+            }
+        ]
+    },
+    {
+        "category": "Health Status Table",
+        "items": []
+    },
+    {
+        "category": "Ticket Widget",
+        "items": []
+    },
+    {
+        "category": "Active Power Vs Irradiance",
+        "items": []
+    },
+    {
+        "category": "Performance Monitoring",
+        "category_type": [
+            "Specific Power",
+            "Specific",
+            "PR"
+        ],
+        "items": [
+            {
+                "ic_name": "IC1",
+                "status": [
+                    {
+                        "Good": 1,
+                        "Bad": 1,
+                        "Off": 1,
+                        "Poor": 1
+                    }
+                ]
+            },
+             {
+                "ic_name": "IC2",
+                "status": [
+                    {
+                        "Good": 1,
+                        "Bad": 1,
+                        "Off": 1,
+                        "Poor": 1
+                    }
+                ]
+            },
+             {
+                "ic_name": "IC3",
+                "status": [
+                    {
+                        "Good": 1,
+                        "Bad": 1,
+                        "Off": 1,
+                        "Poor": 1
+                    }
+                ]
+            },
+             {
+                "ic_name": "IC4",
+                "status": [
+                    {
+                        "Good": 1,
+                        "Bad": 1,
+                        "Off": 1,
+                        "Poor": 1
+                    }
+                ]
+            },
+             {
+                "ic_name": "IC5",
+                "status": [
+                    {
+                        "Good": 1,
+                        "Bad": 1,
+                        "Off": 1,
+                        "Poor": 1
+                    }
+                ]
+            },
+             {
+                "ic_name": "IC6",
+                "status": [
+                    {
+                        "Good": 1,
+                        "Bad": 1,
+                        "Off": 1,
+                        "Poor": 1
+                    }
+                ]
+            }
+
+        ]
+    }
+]
+}

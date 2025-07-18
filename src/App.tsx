@@ -1,11 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import DraggableBox from './components/DraggableB.tsx';
+import PlantConfigView from './components/Configurable.tsx';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
+      <DraggableBox></DraggableBox>
+      <PlantConfigView></PlantConfigView>
+      
+      {/* <DraggableBox></DraggableBox> */}
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
