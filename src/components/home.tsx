@@ -11,8 +11,13 @@ const increment = () =>{
 }
 
 useEffect(() => {
-setCount(200)
+    setCount(count)
     console.log("re-rendered-useEffect",count)
+    return () => {
+        setCount(0)
+        console.log("memory clean")
+    }
+
 
 },[count])
 
