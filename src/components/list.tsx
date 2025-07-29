@@ -1,10 +1,14 @@
 
-import { useState ,useCallback} from "react";
+import { useState ,useCallback,createContext} from "react";
 import Listview from "./listview.tsx";
+
+export const theme = createContext()
+
 
 const List = () => {
     const [num, setNum] = useState(0);
     const [dark, setTheme] = useState(false);
+
 
      const changeTheme = {
                 color: dark ? 'white' : 'black',
@@ -22,13 +26,13 @@ const List = () => {
     
 
     return(
-        <div>
+        <theme.Provider value={{dark}}>
         <input type="number" value={num} onChange={(e)=>setNum(parseInt(e.target.value))}></input>
         <button style={changeTheme} onClick={() => setTheme((prev) => !prev)}>Toggle button</button>
 
         < Listview getList={listarr}/>
 
-        </div>
+        </theme.Provider>
     )
 
 }

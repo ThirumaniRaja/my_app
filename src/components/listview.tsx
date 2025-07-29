@@ -1,8 +1,12 @@
-import { useState , useEffect} from "react";
+import { useState , useEffect, useContext} from "react";
+import theme from "./list.tsx"
 
 
 const Listview = ({getList}) => {
     const [items, setItems] = useState([]);
+    const [themes] = useContext(theme);
+
+    console.log(themes)
 
     useEffect(()=>{
         console.log("useeffect-listview")
