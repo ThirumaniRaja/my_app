@@ -6,9 +6,11 @@ import AxiosIn from './components/axios.js';
 // import PlantConfigView from './components/Configurable.tsx';
 // import Home from './components/home.tsx';
 import List from './components/list.tsx';
+import ButtonC from './components/Button.tsx';
+import HigherOrder from './components/HigherOrder.tsx';
 
 const App = () => {
-
+const HigherO = HigherOrder(ButtonC);
  async function  apiCall(){
   const response = await AxiosIn.get('?format=json')
   console.log(response)
@@ -22,11 +24,18 @@ const App = () => {
       {/* <DraggableBox></DraggableBox> */}
       {/* <Home></Home> */}
 
-      <h1>
+      {/* <h1>
         <button onClick={apiCall}>Test API</button>
       </h1>
 
-      <List></List>
+      <List></List> */}
+
+      {/* HigherOrder */}
+
+      {/* <ButtonC label={"hey"} /> */}
+
+      <HigherO label="hello" trackInfo={{name:"Thiru"}}/>
+      <HigherO label="hello" trackInfo={{name:"Raja"}}/>
 
       
 
